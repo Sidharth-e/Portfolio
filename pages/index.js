@@ -78,11 +78,11 @@ export default function Home() {
               </h3>
               <p className="text-gray-800 py-1">* HTML</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
               <p className="text-gray-800 py-1">* CSS</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
               <p className="text-gray-800 py-1">* JavaScript</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
@@ -98,6 +98,10 @@ export default function Home() {
               </div>
               <p className="text-gray-800 py-1">* Vue</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
+              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              </div>
+              <p className="text-gray-800 py-1">* Asp.net</p>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
               <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
             </div>
@@ -107,15 +111,15 @@ export default function Home() {
               </h3>
               <p className="text-gray-800 py-1">*Python </p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Django</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div style={{ width: "60%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
               <p className="text-gray-800 py-1">*MySQL</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Flask</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
@@ -134,7 +138,7 @@ export default function Home() {
               </div>
               <p className="text-gray-800 py-1">*Programming using python</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Statistical analysis and computing</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
@@ -142,7 +146,7 @@ export default function Home() {
               </div>
               <p className="text-gray-800 py-1">*Machine learning</p>
               <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
               </div>
             </div>
           </div>

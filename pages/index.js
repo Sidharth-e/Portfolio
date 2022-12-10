@@ -34,7 +34,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://github.com/Sidharth-e/Portfolio/raw/main/public/Sidharth_E_Resume_FullStack.pdf" download
                 >
                   Resume
                 </a>
@@ -69,10 +69,6 @@ export default function Home() {
             Innovative tech mind with 1.11 years of experience working as a computer programmer. Capable of working with a
                       variety of technology and software solutions, and managing databases. Valuable team member who has experience
                       diagnosing problems and developing solutions.Talented person with unique ideas and a history of successful contributions in the field.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
             </p>
           </div>
           <div className="lg:flex gap-10">

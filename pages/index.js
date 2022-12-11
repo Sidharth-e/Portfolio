@@ -165,7 +165,7 @@ export default function Home() {
                         <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">1.Host override testing</label>
                         <div class="faq-drawer__content-wrapper">
                           <div class="faq-drawer__content">
-                            <p>  
+                            <p className="text-justify">  
                               The application is created as part of SRE automation.
                               The tool is created
                               using c# and selenium which will check overall response time of the web
@@ -180,7 +180,7 @@ export default function Home() {
                         <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">2.Python voice assistant bot</label>
                         <div class="faq-drawer__content-wrapper">
                           <div class="faq-drawer__content">
-                            <p>
+                            <p className="text-justify">
                                 Developed a personal assistant using python which can perform various actions based on voice commands like sending email,
                     surfing on web, mathematical calculation, playing music, opening files, etc.
                     <strong>Tech stack:- Python</strong>
@@ -192,7 +192,7 @@ export default function Home() {
                         <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">3.Daily Expense Tracker</label>
                         <div class="faq-drawer__content-wrapper">
                           <div class="faq-drawer__content">
-                            <p>
+                            <p className="text-justify">
                                 DAILY EXPENSE TRACKER”is a project which proposes to form a process that can help to store and retrieve details regarding the expense of a person or an organazation. My project has severalmodules which are, login Dashboard. It can generate various reports as per
                                 requirements. It follows the two- tier architecture with front-end php and back-end SQL Server. My project is capable of generating exepense report
                                 based on months ,year aswell as days.
@@ -205,7 +205,7 @@ export default function Home() {
                         <input class="faq-drawer__trigger" id="faq-drawer-4" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-4">4.Individual household electric power consumption Data Set</label>
                         <div class="faq-drawer__content-wrapper">
                           <div class="faq-drawer__content">
-                            <p>
+                            <p className="text-justify">
                              Performed various techniques in data set and created model
                                   Data exploration and analysis.
                                   Data Visualization .
@@ -220,7 +220,7 @@ export default function Home() {
                         <input class="faq-drawer__trigger" id="faq-drawer-5" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-5">5.Mask detection</label>
                         <div class="faq-drawer__content-wrapper">
                           <div class="faq-drawer__content">
-                            <p>
+                            <p className="text-justify">
                                 Developed a deep learning based model for detecting masks over faces in public place to curtail community spread of
                     Coronavirus is presented. The proposed model efficiently handles varying kinds of occlusions in dense situation by
                     making use of ensemble of single and two stage detectors. The ensemble approach not only helps in achieving high
@@ -235,7 +235,7 @@ export default function Home() {
                         <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-6">6.SL triage tool</label>
                         <div class="faq-drawer__content-wrapper">
                           <div class="faq-drawer__content">
-                            <p>
+                            <p className="text-justify">
                               Developed a full stack application for SRE team, &ldquo;SL Triage Tool&rdquo; using Asp.net that allow users to access
 multiple advance features related to SRE core analysis.
 <strong>Techstack:- Asp.net,MySQL,Rest api</strong>
@@ -247,7 +247,7 @@ multiple advance features related to SRE core analysis.
                       <input class="faq-drawer__trigger" id="faq-drawer-7" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-7">7.Akaname report genarator</label>
                       <div class="faq-drawer__content-wrapper">
                         <div class="faq-drawer__content">
-                          <p>
+                          <p className="text-justify">
                             Developed a console application for SRE, &ldquo;Akaname report generator&rdquo; using C# that allow users to generate a
                             report for the vendors by Cross verifying the production details with vendors details.
                            <strong>Tech stack:- C#, MySql</strong> 
@@ -259,7 +259,7 @@ multiple advance features related to SRE core analysis.
                       <input class="faq-drawer__trigger" id="faq-drawer-8" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-8">8.Infra prediction</label>
                       <div class="faq-drawer__content-wrapper">
                         <div class="faq-drawer__content">
-                          <p>
+                          <p className="text-justify">
                             Developed a full-stack web application, &ldquo;Infra prediction&rdquo;, using Angular js that allows users to predict future
 Servicenow tickets and Categorize using AI/ML.
 <strong>Techstack:- Angular js,Flask, Python ,chartjs.</strong>
@@ -271,7 +271,7 @@ Servicenow tickets and Categorize using AI/ML.
                       <input class="faq-drawer__trigger" id="faq-drawer-9" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-9">9.FootUL</label>
                       <div class="faq-drawer__content-wrapper">
                         <div class="faq-drawer__content">
-                          <p>
+                          <p className="text-justify">
                             Developed a web application,&ldquo;FootUL&rdquo;, using vue.js that allow user to scan the foot and predict the various
 stages of footulcer using AI/ML.
 <strong>Techstack:- Vuejs ,Flask, Python.</strong>
@@ -283,7 +283,7 @@ stages of footulcer using AI/ML.
                       <input class="faq-drawer__trigger" id="faq-drawer-10" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-10">10.Blockchain-Dashboard-Django</label>
                       <div class="faq-drawer__content-wrapper">
                         <div class="faq-drawer__content">
-                          <p>
+                          <p className="text-justify">
                             I have developed Blockchain-Dashboard using django to fetch and display crypto currency prices/Trade Prices from the Coingecko cryptocurrency API and Binance api.The app will fetch the deatils on every 15sec.
                             Github link:<a href="https://github.com/Sidharth-e/Blockchain-Dashboard-Django">https://github.com/Sidharth-e/Blockchain-Dashboard-Django</a>
 <strong>Techstack:- DJango,Python.</strong>
@@ -295,7 +295,7 @@ stages of footulcer using AI/ML.
                       <input class="faq-drawer__trigger" id="faq-drawer-11" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-11">11.Portfolio</label>
                       <div class="faq-drawer__content-wrapper">
                         <div class="faq-drawer__content">
-                          <p>
+                          <p className="text-justify">
                             This is my first Portfolio website created usng HTML, CSS and jquery
                             Website link:<a href="https://sidharth-e.github.io/">https://sidharth-e.github.io/</a>
 <strong>Techstack:- HTML,CSS,Jquery,JavaScript</strong>

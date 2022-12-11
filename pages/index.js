@@ -77,32 +77,32 @@ export default function Home() {
                 FrontEnd technologies
               </h3>
               <p className="text-gray-800 py-1">* HTML</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">* CSS</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">* JavaScript</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">* React</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">* Angular</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">* Vue</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">* Asp.net</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
             </div>
             <div className="text-left shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 hover:shadow-2xl">
@@ -110,43 +110,43 @@ export default function Home() {
                 Backend technologies
               </h3>
               <p className="text-gray-800 py-1">*Python </p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Django</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "60%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "60%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">*MySQL</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Flask</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
             </div>
             <div className="text-left shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 hover:shadow-2xl">
               <h2 className="text-2xl font-large pt-8 pb-2 ">Data Science</h2>
               <p className="text-gray-800 py-1">*Data Wrangling</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Data Visualization</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Programming using python</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Statistical analysis and computing</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
               <p className="text-gray-800 py-1">*Machine learning</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
+              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
               </div>
             </div>
           </div>

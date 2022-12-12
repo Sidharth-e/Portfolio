@@ -22,24 +22,11 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">My-Portfolio</h1>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill
+          <nav className="py-10 mb-12 justify-between dark:text-white">
+          <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
+                  className="absolute right-10 cursor-pointer text-2xl"
                 />
-              </li>
-              <li>
-                <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://github.com/Sidharth-e/Portfolio/raw/main/public/Sidharth_E_Resume_FullStack.pdf" download
-                >
-                  Resume
-                </a>
-              </li>
-            </ul>
           </nav>
           <div className="type text-center p-15 py-10">
             <h2 className="text-4xl py-5 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
@@ -52,6 +39,12 @@ export default function Home() {
             I&apos;m a Full Stack developer. I spend my whole day, practically every day, 
             experimenting with HTML, CSS,JavaScript and web framework dabbling with Python and Asp.net
             </p>
+            <div className="mb-10">
+            <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://github.com/Sidharth-e/Portfolio/raw/main/public/Sidharth_E_Resume_FullStack.pdf" download>
+                  My Resume
+                </a>
+            </div>
             <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
             <a href="mailto: sidharthe38943@gmail.com"><AiFillMail/></a>
             <a href="https://www.linkedin.com/in/sidharth-e-6057081bb"><AiFillLinkedin /></a>
@@ -76,77 +69,125 @@ export default function Home() {
               <h3 className="text-2xl font-medium pt-8 pb-2">
                 FrontEnd technologies
               </h3>
-              <p className="text-gray-800 py-1">* HTML</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">HTML</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
               </div>
-              <p className="text-gray-800 py-1">* CSS</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
-              <p className="text-gray-800 py-1">* JavaScript</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">CSS</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
               </div>
-              <p className="text-gray-800 py-1">* React</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
-              <p className="text-gray-800 py-1">* Angular</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">JavaScript</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
               </div>
-              <p className="text-gray-800 py-1">* Vue</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
-              <p className="text-gray-800 py-1">* Asp.net</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">React</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+              </div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Angular</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+              </div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Vue</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+              </div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">ASP.net</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
             </div>
             <div className="text-left shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 hover:shadow-2xl">
               <h3 className="text-2xl font-medium pt-8 pb-2 ">
                 Backend technologies
               </h3>
-              <p className="text-gray-800 py-1">*Python </p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Python</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
               </div>
-              <p className="text-gray-800 py-1">*Django</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "60%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
-              <p className="text-gray-800 py-1">*MySQL</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Django</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
               </div>
-              <p className="text-gray-800 py-1">*Flask</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+              </div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">MYSQL</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+              </div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">FLASK</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
             </div>
             <div className="text-left shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 hover:shadow-2xl">
               <h2 className="text-2xl font-large pt-8 pb-2 ">Data Science</h2>
-              <p className="text-gray-800 py-1">*Data Wrangling</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Data Wrangling</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
               </div>
-              <p className="text-gray-800 py-1">*Data Visualization</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
-              <p className="text-gray-800 py-1">*Programming using python</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "90%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Data Visualization</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
               </div>
-              <p className="text-gray-800 py-1">*Statistical analysis and computing</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
-              <p className="text-gray-800 py-1">*Machine learning</p>
-              <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-teal-200">
-              <div style={{ width: "70%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"></div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Programming using python</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+              </div>
+               <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Statistical analysis and computing</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+              </div>
+              <div className="flex mt-5 justify-between mb-1">
+                  <span className="text-base font-medium text-teal-700 dark:text-white">Machine learning</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+              </div>
+              <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
               </div>
             </div>
           </div>

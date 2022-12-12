@@ -149,7 +149,7 @@ export default function Home() {
                   <span className="text-sm font-medium text-teal-700 dark:text-white">70%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: 70%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "70%"}}></div>
               </div>
             </div>
             <div className="text-left shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 hover:shadow-2xl">

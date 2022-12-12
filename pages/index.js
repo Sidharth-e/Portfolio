@@ -85,38 +85,38 @@ export default function Home() {
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">JavaScript</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">80%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "80%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">React</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">60%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "60%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">Angular</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">70%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "70%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">Vue</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">75%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "75%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">ASP.net</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">85%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "85%"}}></div>
               </div>
             </div>
             <div className="text-left shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 hover:shadow-2xl">
@@ -132,24 +132,24 @@ export default function Home() {
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">Django</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">75%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "75%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">MYSQL</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">80%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "80%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">FLASK</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">70%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: 790%"}}></div>
               </div>
             </div>
             <div className="text-left shadow-xl p-10 rounded-xl my-10 dark:bg-white flex-1 hover:shadow-2xl">
@@ -163,10 +163,10 @@ export default function Home() {
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">Data Visualization</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">80%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "80%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">Programming using python</span>
@@ -177,17 +177,17 @@ export default function Home() {
               </div>
                <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">Statistical analysis and computing</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">70%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "70%"}}></div>
               </div>
               <div className="flex mt-5 justify-between mb-1">
                   <span className="text-base font-medium text-teal-700 dark:text-white">Machine learning</span>
-                  <span className="text-sm font-medium text-teal-700 dark:text-white">90%</span>
+                  <span className="text-sm font-medium text-teal-700 dark:text-white">70%</span>
               </div>
               <div className="w-full bg-teal-200 rounded-full h-2.5 dark:bg-teal-700">
-                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "90%"}}></div>
+                <div className="bg-teal-600 h-2.5 rounded-full" style={{width: "70%"}}></div>
               </div>
             </div>
           </div>

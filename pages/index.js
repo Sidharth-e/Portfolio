@@ -59,7 +59,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Innovative tech mind with 1.11 years of experience working as a computer programmer. Capable of working with a
+            Innovative tech mind with 2.1 years of experience working as a computer programmer. Capable of working with a
                       variety of technology and software solutions, and managing databases. Valuable team member who has experience
                       diagnosing problems and developing solutions.Talented person with unique ideas and a history of successful contributions in the field.
             </p>
